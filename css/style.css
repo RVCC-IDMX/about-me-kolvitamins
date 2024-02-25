@@ -1,7 +1,14 @@
-h1, h2, h3, h4, h5, h6{
+h1, h3, h4, h5, h6{
     font-family: Kanit;
     font-size: 40pt;
     color: #2B4B7F;
+}
+
+h2{
+    font-size: 20pt;
+    color: #2B4B7F;
+    text-align: center;
+
 }
 
 header{
@@ -29,6 +36,18 @@ body{
     font-size:1rem;
     color: #2B4B7F;
 
+}
+
+#hobbies ul li{
+    color:#44D4f5;
+    padding:3px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    list-style-position: inside;
+    background-color: #1B7F60;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 footer{
