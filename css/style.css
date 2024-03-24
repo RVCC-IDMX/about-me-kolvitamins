@@ -82,6 +82,33 @@ body{
     font-weight: bold;
 }
 
+/* Video Section*/
+
+#video{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    border: 10px solid #82f3cf;
+    background-color: #82f3cf;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 1rem;
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-left: 1rem;
+    text-align:center;
+    color: #2B4B7F;
+    font-weight: bold;
+    padding: 1rem;
+}
+
 /*Article Section*/
 
 #lit{
