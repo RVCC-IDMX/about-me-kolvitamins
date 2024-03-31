@@ -188,3 +188,9 @@ footer{
         display: block;
     }
 }
+
+/* contact form */
+
+#formElements{
+    display:grid;
+}
