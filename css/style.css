@@ -1,21 +1,25 @@
-h1, h3, h4, h5, h6{
+h1{
     font-family: Kanit;
     font-size: 40pt;
-    color: #2B4B7F;
+    color: #82f3cf; 
 }
+
+h3, h4, h5, h6{
+    font-family: Kanit;
+    font-size: 40pt;
+    color: #000000;
+}
+
 
 h2{
     font-size: 20pt;
-    color: #2B4B7F;
+    color: #000000;
     text-align: center;
     margin: .15em;
 }
 
 header{
     text-align: center;
-    border: 3px;
-    border-color: #2B4B7F;
-    border-style: solid;
 }
 
 body{
@@ -26,7 +30,7 @@ body{
 #avatar{
     text-align: center;
     background-color: #82f3cf;
-    color: #2B4B7F;
+    color: #000000;
     padding: 10px;
 
 }
@@ -36,7 +40,7 @@ body{
 #bio{
     text-align:center;
     font-size:1rem;
-    color: #2B4B7F;
+    color: #000000;
 
 }
 
@@ -51,7 +55,7 @@ body{
     padding: 0;
 }
 #hobbies ul li{
-    color:#2B4B7F;
+    color:#000000;
     padding: .3em;
     text-align: center;
     font-style: oblique;
@@ -78,7 +82,7 @@ body{
 
 #gallery figure{
     text-align:center;
-    color: #2B4B7F;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -104,7 +108,7 @@ figcaption{
     font-size: 0.5rem;
     margin-left: 1rem;
     text-align:center;
-    color: #2B4B7F;
+    color: #000000;
     font-weight: bold;
     padding: 1rem;
 }
@@ -112,7 +116,7 @@ figcaption{
 /*Article Section*/
 
 #lit{
-    color:#2B4B7F;
+    color:#000000;
     border:3px solid #2B4B7F;
     margin: 10px auto;
     padding: 10px;
@@ -186,7 +190,7 @@ legend{
 footer{
     text-align: left;
     background-color: #82f3cf;
-    color: #2B4B7F;
+    color: #000000;
     padding: 10px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;

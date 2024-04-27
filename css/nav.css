@@ -24,8 +24,8 @@ main{
 /* navbar */
 
 .navbar{
-    background-color: #333 ;
-    color: whitesmoke;
+    background-color: #2B4B7F ;
+    color: #82f3cf;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -63,8 +63,8 @@ main{
 */
 
 .navbar-links a{
-    color: whitesmoke;
-    background-attachment: #333;
+    color: #82f3cf;
+    background-attachment: #2B4B7F;
     font-size:1.75rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -75,8 +75,8 @@ main{
 .navbar-links a:hover,
 .navbar-links a:focus{
     filter: invert;
-    color: #333;
-    background-color: whitesmoke;
+    color: #2B4B7F;
+    background-color: #82f3cf;
     border-radius:10px;
     outline:none;
 }
