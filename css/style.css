@@ -32,7 +32,8 @@ body{
     background-color: #82f3cf;
     color: #000000;
     padding: 10px;
-
+    margin: 1em auto;
+    max-width: 20%;
 }
 
 /*bio section*/
@@ -41,7 +42,30 @@ body{
     text-align:center;
     font-size:1rem;
     color: #000000;
+    margin: 1em;
+}
 
+#bio div{
+    background-color: #82f3cf;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 1rem auto;
+    padding: .3em;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    align-items: center;
+}
+#bio figure{
+    max-width: 30%;
+    background-color: #82f3cf;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 1rem auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Hobbies section*/
@@ -71,7 +95,7 @@ body{
 
 #gallery{
     border: 10px solid #82f3cf;
-     background-color: #82f3cf;
+    background-color: #82f3cf;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -122,6 +146,7 @@ figcaption{
     padding: 10px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
+
 }
 
 #lit div p:first-child:first-letter{
@@ -133,6 +158,15 @@ figcaption{
     border: 2px solid #2B4B7F;
     border-radius:5px;
     text-shadow: 3px 5px 5px #2B4B7F
+}
+
+/* Animation section */
+#animation {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: .3em;
+    justify-content: center;
 }
 
 /* contact form */
@@ -196,10 +230,39 @@ footer{
     border-top-right-radius: 20px;
 }
 
+/* Phone size*/
+
+@media screen and (min-width:375px) and (max-width: 667px){
+    
+    #avatar{
+        padding: 10px;
+        margin: .1em auto;
+        max-width: 90%;
+    }
+
+    #bio div{
+        max-width:90%;
+    }
+
+    #bio figure{
+        max-width:90%;
+    }
+
+    #bio img{
+        max-width:90%;
+    }
+
+    figcaption{
+        font-size:1rem;
+    }
+
+}
+
 /* tablet size*/
 
 @media screen and (min-width:60em){
     
+
     figure{
         display:grid;
         grid-template-columns: 2fr 1fr;

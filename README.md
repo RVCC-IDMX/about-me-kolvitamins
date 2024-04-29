@@ -45,3 +45,11 @@ This section covers how to format a website depending on the different screen si
 
 The website uses a light blue/green color scheme contrasted by black text and a dark blue.
 
+Color codes:
+* `#44D4F5`
+* `#82f3cf`
+* `#2B4B7F`
+* `#15243c`
+* `#000000`
+
+## Citations
