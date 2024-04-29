@@ -11,24 +11,36 @@
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/android-icon-96x96.png">
 </head>
 <body>
     
     <header>
         <!--bob vector-->
         <nav class="navbar">
-            <div class="logo">       
-                <img src="img/logo-96X96.svg" alt="Blue origami Logo">
+            <input type="checkbox" id="hamCheckbox" class="hamCheckbox">
+                <label for="hamCheckbox" class="hamToggle">
 
-                <h1>Web Dev 1</h1>
-            </div>
-            <div class="navbar-links">
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#lit">Blog</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+                    <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+                        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                      </svg>
+                      <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                        <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                      </svg>
+                </label>
+
+                <div class="logo">       
+                    <img src="img/JK2.svg" alt="Initials as a logo">
+                    <h1>Web Dev 1</h1>
+                </div>
+
+                <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -50,8 +62,23 @@
             <!--Bio section-->
             <h2>Biography: </h2>
             <div>
-                <p>I want to work in IT</p>
+                <p>I currently work in the Digital Services department for the Somerset County Library System (SCLS). My primary role is finding
+                    and maintaining open source alternatives to many of the softwares we use to manage our libraries digital infrastructure.
+                    I'm familiar with Linux systems as well as system virtualization and cloud implementation. Before going to school for IT I earned a 
+                    bachelors in Fine Art and painting. After art school I took up restaurant work where I learned how to be a sushi chef, a career I was in for 5 years
+                    and would still be in had the restaurant I was working in not been closed due to the pandemic. Outside of work I mainly spend my time playing videogames,
+                    drawing/painting, working on my car, and with my cat Maurice.
+                </p>
+                <p>My hope is to one day work in an IT department of a major corporation as a systems admin/network tech. I'm still relatively new to coding, but have grown
+                    up around computers and find myself picking these skills up quickly. Since starting this course I've been able to apply my newly learned skills
+                    to real world problems and have even been put on the team responsible for updating SCLS's new website redesign. The more I learn about coding and networking 
+                    the more I am fascinated by all things digital. It's an evergrowing field that I hope to eventually find myself actively contributing to. 
+                </p>
+                <p>
+                    Thanks for visiting my page!
+                </p>
             </div>
+
         </section>
 
         <section id="hobbies">
@@ -63,6 +90,13 @@
                 <li>Spending time with my cat</li>
                 <li>Videogames</li>        
             </ul>
+        </section>
+
+        <section id="bio">
+            <figure>
+                <img src="img/me.jpeg" alt="Me with little Maisy">
+                <figcaption>Me with miss Maisy</figcaption>
+            </figure>
         </section>
 
         <section id="gallery">
@@ -106,25 +140,126 @@
 
         <article id="lit">
 
-            <h2>An Excerpt from Dracula</h2>
+            <h2>CSS Animation</h2>
 
             <div>
-                <p>When I described Lucy's symptoms--the same as before, but infinitely more marked--he looked very grave, but said nothing. He took with him a bag in which were many instruments and drugs, "the ghastly paraphernalia of our beneficial trade," as he once called, in one of his lectures, the equipment of a professor of the healing craft. When we were shown in, Mrs. Westenra met us. She was alarmed, but not nearly so much as I expected to find her. Nature in one of her beneficent moods has ordained that even death has some antidote to its own terrors. Here, in a case where any shock may prove fatal, matters are so ordered that, from some cause or other, the things not personal--even the terrible change in her daughter to whom she is so attached--do not seem to reach her. It is something like the way Dame Nature gathers round a foreign body an envelope of some insensitive tissue which can protect from evil that which it would otherwise harm by contact. If this be an ordered selfishness, then we should pause before we condemn any one for the vice of egoism, for there may be deeper root for its causes than we have knowledge of.</p>
+                <p> When I was in art school I took a class on traditional pen and paper animation. 
+                    Animating at 12 frames per second meant that I would be spending countless hours in the animation studio drawing hundreds of images for each project. 
+                    The professors for my other classes would ask us if we were taking any animation courses since they knew these courses demanded more time than any other course.
+                    Luckily for web developers animation is much simpler and requires only a few lines of code to achieve what would take hours to hand animate. In CSS animation is primarily done through 2 properties, animation and transition. 
+                </p>
 
-                <p>I used my knowledge of this phase of spiritual pathology, and laid down a rule that she should not be present with Lucy or think of her illness more than was absolutely required. She assented readily, so readily that I saw again the hand of Nature fighting for life. Van Helsing and I were shown up to Lucy's room. If I was shocked when I saw her yesterday, I was horrified when I saw her to-day. She was ghastly, chalkily pale; the red seemed to have gone even from her lips and gums, and the bones of her face stood out prominently; her breathing was painful to see or hear. Van Helsing's face grew set as marble, and his eyebrows converged till they almost touched over his nose. Lucy lay motionless, and did not seem to have strength to speak, so for a while we were all silent. Then Van Helsing beckoned to me, and we went gently out of the room. The instant we had closed the door he stepped quickly along the passage to the next door, which was open. Then he pulled me quickly in with him and closed the door. "My God!" he said; "this is dreadful. There is no time to be lost. She will die for sheer want of blood to keep the heart's action as it should be. There must be transfusion of blood at once. Is it you or me?"</p>
+                <p>Transition is the easier to use property of the two. This property has 4 main sub-properties: delay, duration, property and timing-function. 
+                    In the below animation I used the transition property to move the red square from one side of the box to the other side when hovered over. 
+                    This animation is composed of 3 selectors: the "parent", the "child" and the "parent:hover child".
+                    In the 3rd selector, "the parent: hover child", the "child" selector is translated 100% on the X plane, so from one side of the box to the other.    
+                </p> 
                 
-                <p>"I am younger and stronger, Professor. It must be me."</p>
+                <p>Transition is used in the "child" selector, and contains only "transform .25s;"". 
+                    This makes it so that over .25 seconds the red square will transform over to the other side of the box. 
+                    Very simple and effective! There are a bit more complex options you can use that only really effect the timing of the animation, 
+                    but this property is limited by its lack of options.
+                    Though this example is relatively simple, one can see how this could be useful for simple animations on stuff like buttons and menus.
+
+                </p>
                 
-                <p>"Then get ready at once. I will bring up my bag. I am prepared."</p>
+                <p>The more complex option for animation is the Animation property in CSS. 
+                    This property has many more sub-properties: delay, direction, duration, fill-mode, iteration-count, name, play-state and timing-function. When using the animation
+                    property you first have to name the animation. Once the animation is named you can determine what, where and when you want the animation to occur using key frames.
+                    Keyframes are used outside of any selector using the @keyframes query. Keyframes are used by determining what the animation looks like between 0% and 100% complete.                
+                </p>
                 
-                <p>I went downstairs with him, and as we were going there was a knock at the hall-door. When we reached the hall the maid had just opened the door, and Arthur was stepping quickly in. He rushed up to me, saying in an eager whisper:--</p>
+                <p>In the animation below for example, I have it so the orange square moves down, then to the right, then back up, each time changing color. 
+                    This animation is composed of 4 different keyframe states using the transform property. You can also change other properties within these states which is how I changed the color of the square. 
+                    In this example I set it so that the animation only occurs when the cursor is hovered over the box, however if you were to change where the animation property is placed from the 
+                    ".parent:hover child" selector to the ".child" selector, you could add "infinite" to the animation property to have the animation running forever, regardless of 
+                    whether the box is being hovered over.
+                </p>
                 
-                <p>"Jack, I was so anxious. I read between the lines of your letter, and have been in an agony. The dad was better, so I ran down here to see for myself. Is not that gentleman Dr. Van Helsing? I am so thankful to you, sir, for coming." When first the Professor's eye had lit upon him he had been angry at his interruption at such a time; but now, as he took in his stalwart proportions and recognised the strong young manhood which seemed to emanate from him, his eyes gleamed. Without a pause he said to him gravely as he held out his hand:--</p>
+                <p>Though this example is very simple, there are countless other ways to utilize the animation property. Check out some of the websites below to get more information 
+                    about animating is CSS and how to create complex animations through code. Also check out <a href="https://www.youtube.com/watch?v=YszONjKpgg4"> this video</a> for a quick tutorial on CSS animation
+                </p>
                 
             </div>
         </article>
 
+        <section id="animation">
+            <h2>Animation with transition property</h2>
+            <div class="parent">
+                <div class="child"></div>
+            </div>
 
+            <style>
+                .parent{
+                    background-color:blue;
+                    height: 50px;
+                    width: 100px;
+                }
+
+                .child{
+                    background-color: red;
+                    width:50%;
+                    height:100%;
+                    transition: transform .25s;
+                }
+
+                .parent:hover .child{
+                    transform: translateX(100%);
+                }
+            </style>
+
+            <h2>Animation with animation property</h2>
+            <div class="parent1">
+                <div class="child1"></div>
+            </div>
+
+            <style>
+                .parent1{
+                    background-color: green;
+                    height: 100px;
+                    width: 100px;
+                }
+
+                .child1{
+                    background-color: orange;
+                    width:50%;
+                    height:50%;
+                }
+
+                .parent1:hover .child1{
+                    transform: translateX(100%);
+                    animation: around-town 1s linear forwards;
+                }
+
+                @keyframes around-town {
+                    0%{
+                        transform:translate(0%);
+                    }
+                    25%{
+                        transform:translateY(100%);
+                        background-color: purple;
+                    }
+                    50%{
+                        transform:translateX(0%) translateY(100%);
+                        background-color: red;
+                    }
+                    75%{
+                        transform:translateX(100%) translateY(100%);
+                        background-color:fuchsia;
+                    }
+                    100%{
+                        transform:translateX(100%);
+                        background-color: darkblue;
+                    }
+                }
+            </style> 
+
+        </section>
+
+        <section id="citations">
+
+        </section>
+        
         <section id="contact">
 
             <h2>Contact Us:</h2>
@@ -203,8 +338,9 @@
 
     <footer>
 
-        &copy; 2024 Jeff Kolvites
+        &copy; 2024 Jeff Kolvites 
         
+        <a href="https://github.com/RVCC-IDMX/about-me-kolvitamins"> This pages github repo</a>
     </footer>
 
 </body>

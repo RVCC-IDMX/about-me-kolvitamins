@@ -24,8 +24,8 @@ main{
 /* navbar */
 
 .navbar{
-    background-color: #333 ;
-    color: whitesmoke;
+    background-color: #2B4B7F ;
+    color: #82f3cf;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -63,8 +63,8 @@ main{
 */
 
 .navbar-links a{
-    color: whitesmoke;
-    background-attachment: #333;
+    color: #82f3cf;
+    background-attachment: #2B4B7F;
     font-size:1.75rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -75,8 +75,8 @@ main{
 .navbar-links a:hover,
 .navbar-links a:focus{
     filter: invert;
-    color: #333;
-    background-color: whitesmoke;
+    color: #2B4B7F;
+    background-color: #82f3cf;
     border-radius:10px;
     outline:none;
 }
@@ -88,8 +88,55 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+@media screen and (min-width:375px) and (max-width: 960px){
 
-@media screen and (min-width: 60rem) {
+    .navbar{
+        border-bottom: 1px solid #15243c;
+    }
+
+    .hamToggle{
+        position: absolute;
+        cursor:pointer;
+        margin: 0rem 1rem;
+        right:0;
+    }
+
+    svg{
+        width:1.5rem;
+        fill:#15243c;
+    }
+
+    .close{
+        display:none;
+    }
+
+    .menu{
+        margin-top: .2rem;
+    }
+
+    #hamCheckbox{
+        display:none;
+    }
+
+    #hamCheckbox:checked ~ .navbar-links li{
+        display:block;
+    }
+
+    #hamCheckbox:checked ~ label.hamToggle .close{
+        display:block;
+    }
+    
+    #hamCheckbox:checked ~ label.hamToggle .menu{
+        display:none;
+    }
+
+    .navbar li{
+        display:none;
+    }
+
+}
+
+@media screen and (min-width: 960px) and (max-width:1600px) {
 
     .navbar{
         flex-direction: row;
@@ -99,4 +146,34 @@ such that no text wraps
         display: flex;
         justify-content:space-between;
     }
+
+
+    svg{
+        display: none;
+    }
+
+    #hamCheckbox{
+        display:none;
+    }
 }
+
+@media screen and (min-width: 100em){
+
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    svg{
+        display: none;
+    }
+
+    #hamCheckbox{
+        display:none;
+    }
+}
+
