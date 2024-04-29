@@ -11,7 +11,7 @@ The purpose of this project was to familiarize myself with html+css and to learn
 
 * Navbar
 
- This section covers the basics of inserting a logo and a navigation bar at the top of the page
+ This section covers the basics of inserting a logo and a navigation bar at the top of the page. Also how to make a hamburger menu for phone sized screens.
 
 * Bio & Hobbies
 
@@ -53,3 +53,19 @@ Color codes:
 * `#000000`
 
 ## Citations
+
+Transition property:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property
+
+Animation property:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations
+
+https://www.youtube.com/watch?v=YszONjKpgg4
+
+Hamburger menu:
+
+https://www.youtube.com/watch?v=SIzi9z8mrTk
